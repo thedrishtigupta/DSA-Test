@@ -21,7 +21,7 @@ void reverseStr(string& str) {
     while(i < j) swap(str[i++], str[j--]);
 }
 int main() {
-    string str = "railway";
+    string str = "rail";
     reverseStr(str);
     cout<<str<<endl;
     return 0;
